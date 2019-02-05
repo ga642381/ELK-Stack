@@ -35,7 +35,7 @@ Insatll Elastic Stack in the following order:
   curl -X GET "localhost:9200/"
   ```
   
-* Insatll [Kibana](https://www.elastic.co/guide/en/kibana/6.6/install.html)
+* [Insatll Kibana](https://www.elastic.co/guide/en/kibana/6.6/install.html)
   ```bash
   sudo apt-get install kibana
   ```
@@ -44,7 +44,7 @@ Insatll Elastic Stack in the following order:
   sudo systemctl start kibana.service
   ```
   
-* Insatll [Logstash](https://www.elastic.co/guide/en/logstash/6.6/installing-logstash.html)
+* [Insatll Logstash](https://www.elastic.co/guide/en/logstash/6.6/installing-logstash.html)
   ```bash
   sudo apt-get install logstash
   ```
