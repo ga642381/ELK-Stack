@@ -1,6 +1,6 @@
 # ELK-Stack
 
-Run [ELK-stack](https://www.elastic.co/elk-stack) with latest version (6.6.0).
+Run [ELK-Stack](https://www.elastic.co/elk-stack) with latest version (6.6.0).
 
 ## Setup (on Ubuntu)
 Insatll Elastic Stack in the following order: 
@@ -14,7 +14,7 @@ Insatll Elastic Stack in the following order:
   ```bash
   sudo apt-get install openjdk-8-jre
   ```  
-  p.s.
+  
 * [Insatll Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/6.6/deb.html)
   ```bash
   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -  
@@ -44,7 +44,7 @@ Insatll Elastic Stack in the following order:
   sudo systemctl start kibana.service
   ```
   
-* Insatll [Logstash]
+* Insatll [Logstash](https://www.elastic.co/guide/en/logstash/6.6/installing-logstash.html)
   ```bash
   sudo apt-get install logstash
   ```
