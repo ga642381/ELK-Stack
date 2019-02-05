@@ -12,8 +12,9 @@ Insatll Elastic Stack in the following order:
 
 * Install Java
   ```bash
-  sudo apt-get install default-jdk
+  sudo apt-get install openjdk-8-jre
   ```  
+  p.s.
 * [Insatll Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/6.6/deb.html)
   ```bash
   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -  
@@ -34,8 +35,22 @@ Insatll Elastic Stack in the following order:
   curl -X GET "localhost:9200/"
   ```
   
-* Insatll Kibana
+* Insatll [Kibana](https://www.elastic.co/guide/en/kibana/6.6/install.html)
   ```bash
+  sudo apt-get install kibana
+  ```
+  Start service:
+  ```bash
+  sudo systemctl start kibana.service
+  ```
   
-* Insatll Logstash
+* Insatll [Logstash]
+  ```bash
+  sudo apt-get install logstash
+  ```
+  Start service:
+  ```bash
+  sudo systemctl start logstash.service
+  ```
+  
 
