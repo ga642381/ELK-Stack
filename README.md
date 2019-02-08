@@ -54,7 +54,8 @@ Insatll Elastic Stack in the following order:
   ```
   
 ## Test (Sample Flight Data)
-  To access Kibana,type "localhsot:5601" on a browser.There are a few examples you can explore.
+  To access Kibana, type "localhsot:5601" on a browser. There are a few examples you can explore.
+![image](https://raw.githubusercontent.com/ga642381/ELK-Stack/master/github_material/KibanaGIF.gif?token=ATiTpmewqkrgeJ2nWzlYhZOwhNnJxnYBks5cZxiHwA%3D%3D)
   
   
 
