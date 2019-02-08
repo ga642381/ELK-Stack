@@ -53,8 +53,8 @@ Insatll Elastic Stack in the following order:
   sudo systemctl start logstash.service
   ```
   
-  ## Test (Sample Flight Data)
-  Type "localhsot:5601" on browser let you access kibana. There are a few examples you can explore.
+## Test (Sample Flight Data)
+  To access Kibana,type "localhsot:5601" on a browser.There are a few examples you can explore.
   
   
 
